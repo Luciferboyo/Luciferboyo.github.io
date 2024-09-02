@@ -72,9 +72,10 @@
     usercard.appendChild(userid)
 
     //点击按钮的函数（显示或者隐藏）
+    let btn = document.getElementById("btn")
     btn.addEventListener('click',function () {
         if(tg.MainButton.isVisible){
-            tg.MainBUtton.hide()
+            tg.MainButton.hide()
         }else {
             tg.MainButton.show()
         }
