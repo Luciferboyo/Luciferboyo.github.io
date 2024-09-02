@@ -83,12 +83,12 @@
     })
     //点击按钮的函数(开启或者关闭)
     let btnED = document.getElementById("btnED")
-    btnED.addEventListener('click',function () {
+    btnED.addEventListener('click', function () {
         if (tg.MainButton.isActive){
             tg.MainButton.setParams({"color": "#E0FFFF"})
             tg.MainButton.disable()
-        }else {
-            tg.MainButton.setParameters({"color": "#143F6B"})
+        } else {
+            tg.MainButton.setParams({"color": "#143F6B"})
             tg.MainButton.enable()
         }
     })
